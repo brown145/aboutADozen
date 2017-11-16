@@ -1,0 +1,1 @@
+use serverless and aws lambda to provide a super simple endpoint that takes POST `{ number: 12}` and returns string expressing number as an approximation in dozens.

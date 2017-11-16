@@ -144,4 +144,4 @@ const isBetterExpressedAsBakersDozen = ({remainderOf06, remainderOf12, remainder
   return false;
 };
 
-export default aboutADozen;
+module.exports = aboutADozen;

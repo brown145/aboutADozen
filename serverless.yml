@@ -1,0 +1,13 @@
+service: aboutadozen
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  aboutADozen:
+    handler: app.aboutADozen
+    events:
+      - http:
+          path: aboutADozen
+          method: post
